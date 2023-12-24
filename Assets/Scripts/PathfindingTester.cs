@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
+using Astar.MyScript;
 
 public class PathfindingTester : MonoBehaviour
 {
     // The A* manager.
     private AStarManager AStarManager = new AStarManager();
+    private MyScript myScript;
     // List of possible waypoints.
     private List<GameObject> Waypoints = new List<GameObject>();
     // List of waypoint map connections. Represents a path.
@@ -32,6 +35,7 @@ public class PathfindingTester : MonoBehaviour
     public TextMeshProUGUI storeDistance;
     public TextMeshProUGUI storeTime;
     public TextMeshProUGUI storeSpeed;
+
     private float newDist;
     private float newTime;
     private float newSpeed;
@@ -39,22 +43,24 @@ public class PathfindingTester : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
+        myScript = GetComponent<MyScript>();
         if (start == null || end == null)
         {
-            Debug.Log("No start or end waypoints.");
+            myScript.notification("No start or end waypoints.", "error");
             return;
         }
         VisGraphWaypointManager tmpWpM = start.GetComponent<VisGraphWaypointManager>();
         if (tmpWpM == null)
         {
-            Debug.Log("Start is not a waypoint.");
+            myScript.notification("Start is not a waypoint.", "error");
             return;
         }
         tmpWpM = end.GetComponent<VisGraphWaypointManager>();
         if (tmpWpM == null)
         {
-            Debug.Log("End is not a waypoint.");
+            
+            myScript.notification("End is not a waypoint.", "error");
             return;
         }
         // Find all the waypoints in the level.
@@ -84,7 +90,7 @@ public class PathfindingTester : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Warning, " + waypoint.name + " has a missing to node for a connection!");
+                    myScript.notification(waypoint.name + " has a missing to node for a connection!", "error");
                 }
             }
         }
@@ -93,7 +99,7 @@ public class PathfindingTester : MonoBehaviour
         ConnectionArray = AStarManager.PathfindAStar(start, end);
         if (ConnectionArray.Count == 0)
         {
-            Debug.Log("Warning, A* did not return a path between the start and end node.");
+            myScript.notification("A* did not return a path between the start and end node.", "error");
         }
     }
     // Draws debug objects in the editor and during editor play (if option set).
@@ -141,13 +147,15 @@ public class PathfindingTester : MonoBehaviour
                     if (currTarget <= 0) {
                         tempAgent = false;
                         currSpeed = 0f;
-                        Debug.Log("The vehicle has returned home with that has logs from the endpoint");
+                        myScript.notification("The vehicle has returned home with that has logs from the endpoint", "success");
                     }
                 }
             }
             float calcDist = currSpeed * Time.smoothDeltaTime;
             newDist = newDist + calcDist;
             newTime = newTime + Time.smoothDeltaTime;
+
+            myScript.RotateWheel(currSpeed);
 
             storeDistance.text = "Distance: " + newDist.ToString("F2") + "";
             storeTime.text = "Time: " + newTime.ToString("F2") + "";
@@ -166,7 +174,7 @@ public class PathfindingTester : MonoBehaviour
         }
 
         getProp = Instantiate(collectLogs, end.transform.position, Quaternion.identity);
-        Debug.Log("Attached logs on the vehicle");
+        myScript.notification("Attached logs on the vehicle", "info");
 
         if (getProp != null) {
             getProp.transform.SetParent(transform);
