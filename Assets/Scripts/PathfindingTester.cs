@@ -27,7 +27,7 @@ public class PathfindingTester : MonoBehaviour
     private int currTarget = 0;
     private Vector3 currTargetPos;
     private int movingDir = 1;
-    private bool tempAgent = true;
+    [SerializeField] public bool isAgentMoving = true;
     private bool hasLogs = false;
 
     public GameObject collectLogs;
@@ -39,6 +39,8 @@ public class PathfindingTester : MonoBehaviour
     private float newDist;
     private float newTime;
     private float newSpeed;
+
+    private bool moveNotification;
 
 
     // Start is called before the first frame update
@@ -119,11 +121,16 @@ public class PathfindingTester : MonoBehaviour
     }
 
     void Update() {
-        if (tempAgent) {
+        if (isAgentMoving) {
             if (movingDir > 0) {
                 currTargetPos = ConnectionArray[currTarget].ToNode.transform.position;
             } else {
                 currTargetPos = ConnectionArray[currTarget].FromNode.transform.position;
+            }
+            
+            if (!moveNotification) {
+                myScript.notification("Agent is moving", "success");
+                moveNotification = true;
             }
 
             currTargetPos.y = transform.position.y;
@@ -150,10 +157,10 @@ public class PathfindingTester : MonoBehaviour
                     currTarget += movingDir;
 
                     if (currTarget <= 0) {
-                        tempAgent = false;
+                        isAgentMoving = false;
                         currSpeed = 0f;
-                        Time.timeScale = 0f;
-                        myScript.notification("Vehicle has returned home!", "success");
+                        myScript.notification(gameObject.name + " has returned home!", "success");
+                        moveNotification = false;
                     }
                 }
             }
