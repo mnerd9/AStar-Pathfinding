@@ -14,6 +14,13 @@ namespace Astar.MyScript {
         public TextMeshProUGUI setNotification;
         public GameObject notificationGUI;
         public Image notificationBackground;
+
+        private float agent1, agent2;
+
+        void Start() {
+            agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
+            agent2 = GameObject.Find("Agent2").GetComponent<PathfindingTester>().CurrSpeed;
+        }
         
         public void notification(string getText, string getType) {
             float paddingX = 20f;
@@ -63,6 +70,21 @@ namespace Astar.MyScript {
             frontWheelL.Rotate(Vector3.left, rotationAngle);
             frontWheelR.Rotate(Vector3.right, rotationAngle);
             rearWheel.Rotate(Vector3.right, rotationAngle);
+        }
+
+        void OnTriggerEnter(Collider other) {
+            if (other.gameObject.tag == "Agent") {
+                Rigidbody otherRigidbody = other.gameObject.GetComponent<Rigidbody>();
+                if (otherRigidbody != null) {
+                    float distance = Vector3.Distance(transform.position, other.transform.position);
+
+                    if (distance < 5f) {
+                        Debug.Log("Collision with Agent: " + other.gameObject.name + " - Distance: " + distance + " meters");
+
+                        // TODO
+                    }
+                }
+            }
         }
     }
 }
