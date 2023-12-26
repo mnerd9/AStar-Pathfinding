@@ -26,6 +26,9 @@
 # Visual Studio cache directory
 .vs/
 
+# Custom Temporary Files
+*.temp
+
 # Visual Studio Code cache directory
 .vscode/
 
