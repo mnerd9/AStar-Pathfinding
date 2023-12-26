@@ -16,7 +16,8 @@ namespace Astar.MyScript {
         public Image notificationBackground;
 
         private float agent1, agent2;
-
+        private PathfindingTester slowerAgent;
+        private float originalSpeed;
         void Start() {
             agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
             agent2 = GameObject.Find("Agent2").GetComponent<PathfindingTester>().CurrSpeed;
@@ -71,7 +72,6 @@ namespace Astar.MyScript {
             frontWheelR.Rotate(Vector3.right, rotationAngle);
             rearWheel.Rotate(Vector3.right, rotationAngle);
         }
-
         void OnTriggerEnter(Collider other) {
             if (other.gameObject.tag == "Agent") {
                 Rigidbody otherRigidbody = other.gameObject.GetComponent<Rigidbody>();
@@ -81,10 +81,42 @@ namespace Astar.MyScript {
                     if (distance < 5f) {
                         Debug.Log("Collision with Agent: " + other.gameObject.name + " - Distance: " + distance + " meters");
 
-                        // TODO
+                        float otherAgentSpeed = other.gameObject.GetComponent<PathfindingTester>().CurrSpeed;
+
+                        if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2) {
+                            slowerAgent = other.gameObject.GetComponent<PathfindingTester>();
+
+                            if (slowerAgent != null) {
+                                originalSpeed = slowerAgent.CurrSpeed;
+                                slowerAgent.CurrSpeed = 0f;
+                                StartCoroutine(DelayTime(5));
+                            }
+                        }
                     }
                 }
             }
+        }
+
+        IEnumerator DelayTime(float seconds) {
+            yield return new WaitForSeconds(seconds);
+
+            if (slowerAgent != null) {
+                slowerAgent.CurrSpeed = originalSpeed;
+            }
+        }
+
+        void OnTriggerExit(Collider other) {
+            if (other.gameObject.tag == "Agent") {}
+        }
+
+        public void moveAgentPos() {
+            // TODO
+            return;
+        }
+        
+        public void resetAgentPos() {
+            // TODO
+            return;
         }
     }
 }
