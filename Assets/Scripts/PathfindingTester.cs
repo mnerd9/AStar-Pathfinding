@@ -152,7 +152,8 @@ public class PathfindingTester : MonoBehaviour
                     if (currTarget <= 0) {
                         tempAgent = false;
                         currSpeed = 0f;
-                        myScript.notification("The vehicle has returned home with that has logs from the endpoint", "success");
+                        Time.timeScale = 0f;
+                        myScript.notification("Vehicle has returned home!", "success");
                     }
                 }
             }
