@@ -888,7 +888,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151462434}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9b1e8909e64b4649bd429623b747274, type: 3}
   m_Name: 
@@ -2005,7 +2005,7 @@ PrefabInstance:
       objectReference: {fileID: 1423648953}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: currSpeed
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: storeTime
@@ -3105,7 +3105,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667708916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9b1e8909e64b4649bd429623b747274, type: 3}
   m_Name: 
@@ -3113,7 +3113,7 @@ MonoBehaviour:
   frontWheelL: {fileID: 2032012586}
   frontWheelR: {fileID: 2037187971}
   rearWheel: {fileID: 101410399}
-  setNotification: {fileID: 1732788681}
+  setNotification: {fileID: 1401755762}
   notificationGUI: {fileID: 566012284}
   notificationBackground: {fileID: 566012286}
 --- !u!4 &667708921 stripped
@@ -3759,7 +3759,7 @@ PrefabInstance:
       objectReference: {fileID: 1887686365}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: currSpeed
-      value: 6
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: storeTime
@@ -4819,6 +4819,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7591319092751514162, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
+      propertyPath: m_TagString
+      value: Agent
+      objectReference: {fileID: 0}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: end
       value: 
@@ -4829,7 +4833,7 @@ PrefabInstance:
       objectReference: {fileID: 2108803243}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: currSpeed
-      value: 3
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7946340109186276021, guid: b77b2a7a0540f1a46bded680efc7e603, type: 3}
       propertyPath: storeTime
@@ -7416,7 +7420,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701398530}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9b1e8909e64b4649bd429623b747274, type: 3}
   m_Name: 
@@ -7424,7 +7428,7 @@ MonoBehaviour:
   frontWheelL: {fileID: 1315768628}
   frontWheelR: {fileID: 609387167}
   rearWheel: {fileID: 122057715}
-  setNotification: {fileID: 1732788681}
+  setNotification: {fileID: 2131853969}
   notificationGUI: {fileID: 1161690325}
   notificationBackground: {fileID: 1161690327}
 --- !u!4 &1701398535 stripped
