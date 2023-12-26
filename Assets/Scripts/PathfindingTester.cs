@@ -163,12 +163,12 @@ public class PathfindingTester : MonoBehaviour
 
             myScript.RotateWheel(currSpeed);
 
-            storeDistance.text = "Distance: " + newDist.ToString("F2") + "";
-            storeTime.text = "Time: " + newTime.ToString("F2") + "";
+            storeDistance.text = newDist.ToString("F2");
+            storeTime.text = newTime.ToString("F2");
 
             if (newTime >= 1) {
                 newSpeed = newDist / newTime;
-                storeSpeed.text = "Speed: " + newSpeed.ToString("F2") + "";
+                storeSpeed.text = newSpeed.ToString("F2");
             }
         }
     }
