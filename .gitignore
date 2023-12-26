@@ -28,6 +28,7 @@
 
 # Custom Temporary Files
 *.temp
+*.temp.meta
 
 # Visual Studio Code cache directory
 .vscode/
