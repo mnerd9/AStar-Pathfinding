@@ -113,6 +113,11 @@ public class PathfindingTester : MonoBehaviour
         }
     }
 
+    public float CurrSpeed {
+        get { return currSpeed; }
+        set { currSpeed = value; }
+    }
+
     void Update() {
         if (tempAgent) {
             if (movingDir > 0) {
