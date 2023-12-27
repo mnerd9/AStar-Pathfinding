@@ -18,6 +18,8 @@ namespace Astar.MyScript {
         private float agent1, agent2;
         private PathfindingTester slowerAgent;
         private float originalSpeed;
+        private Vector3 storeOldPosition;
+
         void Start() {
             agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
             agent2 = GameObject.Find("Agent2").GetComponent<PathfindingTester>().CurrSpeed;
@@ -79,44 +81,39 @@ namespace Astar.MyScript {
                     float distance = Vector3.Distance(transform.position, other.transform.position);
 
                     if (distance < 5f) {
-                        Debug.Log("Collision with Agent: " + other.gameObject.name + " - Distance: " + distance + " meters");
-
                         float otherAgentSpeed = other.gameObject.GetComponent<PathfindingTester>().CurrSpeed;
 
                         if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2) {
                             slowerAgent = other.gameObject.GetComponent<PathfindingTester>();
-
                             if (slowerAgent != null) {
                                 originalSpeed = slowerAgent.CurrSpeed;
                                 slowerAgent.CurrSpeed = 0f;
-                                StartCoroutine(DelayTime(5));
+                                slowerAgent.GetNotification(gameObject.name + " has stopped", "error");
+                                storeOldPosition = slowerAgent.transform.position;
+                                Vector3 newPosition = slowerAgent.transform.position;
+                                newPosition.x -= 5f;
+                                slowerAgent.transform.position = newPosition;
                             }
                         }
                     }
                 }
             }
         }
-
-        IEnumerator DelayTime(float seconds) {
-            yield return new WaitForSeconds(seconds);
-
-            if (slowerAgent != null) {
-                slowerAgent.CurrSpeed = originalSpeed;
+        void OnTriggerExit(Collider other) {
+            if (other.gameObject.tag == "Agent") {
+                if (slowerAgent != null) {
+                    Invoke("ResumeAgent", 3f);
+                }
             }
         }
 
-        void OnTriggerExit(Collider other) {
-            if (other.gameObject.tag == "Agent") {}
-        }
-
-        public void moveAgentPos() {
-            // TODO
-            return;
-        }
-        
-        public void resetAgentPos() {
-            // TODO
-            return;
+        void ResumeAgent() {
+            if (slowerAgent != null) {
+                slowerAgent.transform.position = storeOldPosition;
+                slowerAgent.CurrSpeed = originalSpeed;
+                slowerAgent.GetNotification("", "");
+                slowerAgent = null;
+            }
         }
     }
 }
