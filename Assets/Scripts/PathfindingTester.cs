@@ -28,7 +28,7 @@ public class PathfindingTester : MonoBehaviour
     private int currTarget = 0;
     private Vector3 currTargetPos;
     private int movingDir = 1;
-    [SerializeField] public bool isAgentMoving = true;
+    [SerializeField] private bool isAgentMoving = true;
 
     public TextMeshProUGUI storeDistance;
     public TextMeshProUGUI storeTime;
@@ -41,7 +41,7 @@ public class PathfindingTester : MonoBehaviour
 
     private bool moveNotification;
 
-
+    private bool isMovingDirection;
     // Start is called before the first frame update
     void Start()
     {
@@ -113,7 +113,6 @@ public class PathfindingTester : MonoBehaviour
             Gizmos.DrawLine((aConnection.FromNode.transform.position + OffSet), (aConnection.ToNode.transform.position + OffSet));
         }
     }
-
     public float CurrSpeed {
         get { return currSpeed; }
         set { currSpeed = value; }
@@ -150,6 +149,7 @@ public class PathfindingTester : MonoBehaviour
                 if (currTarget >= ConnectionArray.Count || currTarget < 0) {
                     movingDir *= -1;
                     currTarget += movingDir;
+                    isMovingDirection = true;
                     
                     currTarget = Mathf.Clamp(currTarget, 0, ConnectionArray.Count - 1);
                     if (currTarget <= 0) {
@@ -160,6 +160,7 @@ public class PathfindingTester : MonoBehaviour
                     }
                 }
             }
+
             float calcDist = currSpeed * Time.smoothDeltaTime;
             newDist = newDist + calcDist;
             newTime = newTime + Time.smoothDeltaTime;
@@ -171,7 +172,13 @@ public class PathfindingTester : MonoBehaviour
 
             if (newTime >= 1) {
                 newSpeed = newDist / newTime;
-                storeSpeed.text = newSpeed.ToString("F2");
+                storeSpeed.text = currSpeed.ToString("F2");
+            }
+
+            if (currSpeed <= 0 && isAgentMoving) {
+                storeSpeed.text = "0.00";
+            } else if(isMovingDirection != true) {
+                storeSpeed.text = currSpeed.ToString("F2");
             }
         }
     }
@@ -181,9 +188,20 @@ public class PathfindingTester : MonoBehaviour
             Destroy(collider.gameObject);
             myScript.notification(gameObject.name + " has collected "+ logs + " logs", "info");
             storeItems.text = logs.ToString();
-            float speedMultiplier = 1.0f - (logs * 0.1f); 
-            currSpeed = currSpeed * speedMultiplier;
-            currSpeed = Mathf.Max(0f, currSpeed);
+            float calcSpeedPercentage = logs * 0.1f;
+            newSpeed = newDist / newTime;
+            float conversionSpeed = newSpeed * (1 - calcSpeedPercentage);
+            currSpeed = conversionSpeed;
+            storeSpeed.text = currSpeed.ToString("F2");
         }
+    }
+
+    public void GetNotification(string text, string type) {
+        if (text == "" && type == "") {
+            myScript.notification(gameObject.name + " has collected "+ logs + " logs", "info");
+            return;
+        }
+        myScript.notification(text, type);
+        return;
     }
 }
