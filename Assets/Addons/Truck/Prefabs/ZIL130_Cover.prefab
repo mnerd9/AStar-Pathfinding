@@ -1117,7 +1117,9 @@ MonoBehaviour:
   start: {fileID: 0}
   end: {fileID: 0}
   currSpeed: 32
-  collectLogs: {fileID: 0}
+  logs: 10
+  isAgentMoving: 1
   storeDistance: {fileID: 0}
   storeTime: {fileID: 0}
   storeSpeed: {fileID: 0}
+  storeItems: {fileID: 0}
