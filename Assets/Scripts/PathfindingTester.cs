@@ -24,17 +24,16 @@ public class PathfindingTester : MonoBehaviour
     Vector3 OffSet = new Vector3(0, 0.3f, 0);
     // Movement variables.
     [SerializeField] private float currSpeed = 32;
+    [SerializeField] private int logs = 10;
     private int currTarget = 0;
     private Vector3 currTargetPos;
     private int movingDir = 1;
     [SerializeField] public bool isAgentMoving = true;
-    private bool hasLogs = false;
 
-    public GameObject collectLogs;
-    private GameObject getProp;
     public TextMeshProUGUI storeDistance;
     public TextMeshProUGUI storeTime;
     public TextMeshProUGUI storeSpeed;
+    public TextMeshProUGUI storeItems;
 
     private float newDist;
     private float newTime;
@@ -129,7 +128,7 @@ public class PathfindingTester : MonoBehaviour
             }
             
             if (!moveNotification) {
-                myScript.notification("Agent is moving", "success");
+                myScript.notification(gameObject.name + " is moving", "success");
                 moveNotification = true;
             }
 
@@ -149,13 +148,10 @@ public class PathfindingTester : MonoBehaviour
                 currTarget = currTarget + movingDir;
 
                 if (currTarget >= ConnectionArray.Count || currTarget < 0) {
-                    if (!hasLogs) {
-                        attachLogs();
-                    }
-
                     movingDir *= -1;
                     currTarget += movingDir;
-
+                    
+                    currTarget = Mathf.Clamp(currTarget, 0, ConnectionArray.Count - 1);
                     if (currTarget <= 0) {
                         isAgentMoving = false;
                         currSpeed = 0f;
@@ -180,20 +176,14 @@ public class PathfindingTester : MonoBehaviour
         }
     }
 
-    void attachLogs() {
-        hasLogs = true;
-        if (collectLogs == null) {
-            return;
-        }
-
-        getProp = Instantiate(collectLogs, end.transform.position, Quaternion.identity);
-        myScript.notification("Attached logs on the vehicle", "info");
-
-        if (getProp != null) {
-            getProp.transform.SetParent(transform);
-            getProp.transform.localPosition = new Vector3(0.244000003f, 1.58200002f, -3.60500002f);
-            getProp.transform.localRotation = Quaternion.Euler(295.442993f,87.2642441f,88.6033249f);
-            getProp.transform.localScale = new Vector3(15f, 10.5f, 14.8800001f);
+    void OnTriggerEnter(Collider collider) {
+        if (collider != null && collider.CompareTag(gameObject.name + "Log") && isAgentMoving) {
+            Destroy(collider.gameObject);
+            myScript.notification(gameObject.name + " has collected "+ logs + " logs", "info");
+            storeItems.text = logs.ToString();
+            float speedMultiplier = 1.0f - (logs * 0.1f); 
+            currSpeed = currSpeed * speedMultiplier;
+            currSpeed = Mathf.Max(0f, currSpeed);
         }
     }
 }
