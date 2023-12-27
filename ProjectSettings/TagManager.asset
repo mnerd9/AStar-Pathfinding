@@ -8,6 +8,10 @@ TagManager:
   - Ground
   - Waypoint
   - Agent
+  - Log
+  - Agent1Log
+  - Agent2Log
+  - Agent3Log
   layers:
   - Default
   - TransparentFX
