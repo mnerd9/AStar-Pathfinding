@@ -19,6 +19,7 @@ namespace Astar.MyScript {
         private PathfindingTester slowerAgent;
         private float originalSpeed;
         private Vector3 storeOldPosition;
+        public TextMeshProUGUI collisionText;
 
         void Start() {
             agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
@@ -85,6 +86,7 @@ namespace Astar.MyScript {
 
                         if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2) {
                             slowerAgent = other.gameObject.GetComponent<PathfindingTester>();
+                            collisionText.text = "Collision Detection: " + gameObject.name + " has collided with " + other.gameObject.name;
                             if (slowerAgent != null) {
                                 originalSpeed = slowerAgent.CurrSpeed;
                                 slowerAgent.CurrSpeed = 0f;
@@ -112,6 +114,7 @@ namespace Astar.MyScript {
                 slowerAgent.transform.position = storeOldPosition;
                 slowerAgent.CurrSpeed = originalSpeed;
                 slowerAgent.GetNotification("", "");
+                collisionText.text = "Collision Detection:  None";
                 slowerAgent = null;
             }
         }
