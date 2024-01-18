@@ -169,7 +169,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
   - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
   waypointType: 0
 --- !u!1 &20034580
 GameObject:
@@ -217,7 +256,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
   - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &39281206
 GameObject:
@@ -410,8 +488,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
   - toNode: {fileID: 1903273949}
   - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!4 &101410399 stripped
 Transform:
@@ -695,7 +811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 119480194}
-  - component: {fileID: 119480193}
+  - component: {fileID: 119480195}
   m_Layer: 0
   m_Name: point34
   m_TagString: Waypoint
@@ -703,22 +819,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &119480193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119480192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 1040476010}
-  waypointType: 0
 --- !u!4 &119480194
 Transform:
   m_ObjectHideFlags: 0
@@ -734,6 +834,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &119480195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119480192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1001 &119569184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -863,7 +1018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 136941393}
-  - component: {fileID: 136941392}
+  - component: {fileID: 136941394}
   m_Layer: 0
   m_Name: point11
   m_TagString: Waypoint
@@ -871,22 +1026,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &136941392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136941391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 250940163}
-  waypointType: 0
 --- !u!4 &136941393
 Transform:
   m_ObjectHideFlags: 0
@@ -902,6 +1041,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &136941394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136941391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &139063307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,8 +1409,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
   - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
   - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &213311040
 GameObject:
@@ -1264,7 +1496,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
   - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &226108466
 GameObject:
@@ -1312,8 +1583,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
   - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
   - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &236855016
 GameObject:
@@ -1361,7 +1670,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 763443383}
   - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &244550766
 GameObject:
@@ -1589,8 +1937,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
   - toNode: {fileID: 197385721}
   - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &271708587
 GameObject:
@@ -1676,7 +2062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296737013}
-  - component: {fileID: 296737012}
+  - component: {fileID: 296737014}
   m_Layer: 0
   m_Name: point36
   m_TagString: Waypoint
@@ -1684,22 +2070,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &296737012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296737011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 1216072613}
-  waypointType: 0
 --- !u!4 &296737013
 Transform:
   m_ObjectHideFlags: 0
@@ -1715,6 +2085,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &296737014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296737011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &298151749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1761,8 +2186,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
   - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
   - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &315866919
 GameObject:
@@ -1773,7 +2236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 315866921}
-  - component: {fileID: 315866920}
+  - component: {fileID: 315866922}
   m_Layer: 0
   m_Name: point38
   m_TagString: Waypoint
@@ -1781,22 +2244,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &315866920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315866919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 1903273949}
-  waypointType: 0
 --- !u!4 &315866921
 Transform:
   m_ObjectHideFlags: 0
@@ -1812,6 +2259,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &315866922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315866919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1001 &328419911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2469,7 +2971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 388437095}
-  - component: {fileID: 388437094}
+  - component: {fileID: 388437096}
   m_Layer: 0
   m_Name: point32
   m_TagString: Waypoint
@@ -2477,23 +2979,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &388437094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388437093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 1040476010}
-  - toNode: {fileID: 1216072613}
-  waypointType: 0
 --- !u!4 &388437095
 Transform:
   m_ObjectHideFlags: 0
@@ -2509,6 +2994,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388437096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388437093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1001 &392539990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2633,7 +3173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 410419624}
-  - component: {fileID: 410419623}
+  - component: {fileID: 410419625}
   m_Layer: 0
   m_Name: point35
   m_TagString: Waypoint
@@ -2641,23 +3181,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &410419623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410419622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 119480192}
-  - toNode: {fileID: 388437093}
-  waypointType: 0
 --- !u!4 &410419624
 Transform:
   m_ObjectHideFlags: 0
@@ -2673,6 +3196,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410419625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410419622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &453262177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,8 +3297,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
   - toNode: {fileID: 236855016}
   - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &471116905
 GameObject:
@@ -2843,8 +3459,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
   - toNode: {fileID: 1661075896}
   - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &503065698
 GameObject:
@@ -3807,7 +4461,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
   - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &667708916 stripped
 GameObject:
@@ -3932,8 +4625,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
   - toNode: {fileID: 1982340438}
   - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &696729283
 GameObject:
@@ -4115,8 +4846,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
-  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
   - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &713957250
 GameObject:
@@ -4164,7 +4933,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
   - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1001 &735991271
 PrefabInstance:
@@ -4694,9 +5502,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
   - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
   - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
   - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &762801692
 GameObject:
@@ -4878,7 +5723,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
   - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &777692232
 GameObject:
@@ -5086,8 +5970,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
   - toNode: {fileID: 2108803243}
   - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &811089423
 GameObject:
@@ -6105,7 +7027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989885799}
-  - component: {fileID: 989885798}
+  - component: {fileID: 989885800}
   m_Layer: 0
   m_Name: point17
   m_TagString: Waypoint
@@ -6113,23 +7035,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &989885798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989885797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 1954657770}
-  - toNode: {fileID: 410419622}
-  waypointType: 0
 --- !u!4 &989885799
 Transform:
   m_ObjectHideFlags: 0
@@ -6145,6 +7050,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989885800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989885797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &1016154829
 GameObject:
   m_ObjectHideFlags: 0
@@ -6188,7 +7148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040476012}
-  - component: {fileID: 1040476011}
+  - component: {fileID: 1040476013}
   m_Layer: 0
   m_Name: point33
   m_TagString: Waypoint
@@ -6196,22 +7156,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1040476011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040476010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 296737011}
-  waypointType: 0
 --- !u!4 &1040476012
 Transform:
   m_ObjectHideFlags: 0
@@ -6227,6 +7171,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1040476013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040476010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &1052417724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6961,7 +7960,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
   - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1216072613
 GameObject:
@@ -6972,7 +8010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1216072615}
-  - component: {fileID: 1216072614}
+  - component: {fileID: 1216072616}
   m_Layer: 0
   m_Name: point37
   m_TagString: Waypoint
@@ -6980,22 +8018,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1216072614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216072613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 315866919}
-  waypointType: 0
 --- !u!4 &1216072615
 Transform:
   m_ObjectHideFlags: 0
@@ -7011,6 +8033,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216072616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216072613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &1252296066
 GameObject:
   m_ObjectHideFlags: 0
@@ -7133,7 +8210,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
   - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1267230623
 GameObject:
@@ -7358,7 +8474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319877575}
-  - component: {fileID: 1319877574}
+  - component: {fileID: 1319877576}
   m_Layer: 0
   m_Name: point16
   m_TagString: Waypoint
@@ -7366,22 +8482,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1319877574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319877573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 989885797}
-  waypointType: 0
 --- !u!4 &1319877575
 Transform:
   m_ObjectHideFlags: 0
@@ -7397,6 +8497,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1319877576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319877573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &1333478679
 GameObject:
   m_ObjectHideFlags: 0
@@ -8107,6 +9262,45 @@ MonoBehaviour:
   WaypointTextColour: 2
   connections:
   - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1442803193
 GameObject:
@@ -8154,7 +9348,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
   - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1001 &1460303674
 PrefabInstance:
@@ -8643,7 +9876,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
-  connections: []
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1649338584
 GameObject:
@@ -8691,7 +9964,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
   - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1661075896
 GameObject:
@@ -8738,7 +10050,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
-  connections: []
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1671334729
 GameObject:
@@ -9447,8 +10799,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
   - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
   - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1903273949
 GameObject:
@@ -9496,7 +10886,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
   - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1952676113
 GameObject:
@@ -9616,7 +11045,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
   - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &1959332951
 GameObject:
@@ -9894,7 +11362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1982340440}
-  - component: {fileID: 1982340439}
+  - component: {fileID: 1982340441}
   m_Layer: 0
   m_Name: point19
   m_TagString: Waypoint
@@ -9902,22 +11370,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1982340439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982340438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WaypointTextColour: 2
-  connections:
-  - toNode: {fileID: 763443383}
-  waypointType: 0
 --- !u!4 &1982340440
 Transform:
   m_ObjectHideFlags: 0
@@ -9933,6 +11385,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1952676114}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982340441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982340438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bda60eb30b12a74fb75cfb132cf1139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaypointTextColour: 2
+  connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
+  waypointType: 0
 --- !u!1 &2005234641
 GameObject:
   m_ObjectHideFlags: 0
@@ -10113,8 +11620,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 2108803243}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
+  - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
   - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
   - toNode: {fileID: 315866919}
+  - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!4 &2032012586 stripped
 Transform:
@@ -10560,8 +12105,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaypointTextColour: 2
   connections:
+  - toNode: {fileID: 1423648953}
+  - toNode: {fileID: 1887686365}
+  - toNode: {fileID: 760630979}
+  - toNode: {fileID: 800081773}
+  - toNode: {fileID: 226108466}
+  - toNode: {fileID: 213311040}
+  - toNode: {fileID: 20034580}
+  - toNode: {fileID: 1255802154}
+  - toNode: {fileID: 1442803193}
+  - toNode: {fileID: 136941391}
   - toNode: {fileID: 710780542}
+  - toNode: {fileID: 250940163}
+  - toNode: {fileID: 197385721}
+  - toNode: {fileID: 1649338584}
+  - toNode: {fileID: 1319877573}
+  - toNode: {fileID: 989885797}
+  - toNode: {fileID: 298151749}
+  - toNode: {fileID: 1982340438}
+  - toNode: {fileID: 670057886}
+  - toNode: {fileID: 487963246}
+  - toNode: {fileID: 1661075896}
+  - toNode: {fileID: 1206050163}
+  - toNode: {fileID: 453262177}
+  - toNode: {fileID: 236855016}
+  - toNode: {fileID: 763443383}
+  - toNode: {fileID: 1636284333}
+  - toNode: {fileID: 1903273949}
+  - toNode: {fileID: 71042169}
+  - toNode: {fileID: 1954657770}
+  - toNode: {fileID: 2027968151}
+  - toNode: {fileID: 388437093}
+  - toNode: {fileID: 1040476010}
+  - toNode: {fileID: 119480192}
+  - toNode: {fileID: 410419622}
+  - toNode: {fileID: 296737011}
+  - toNode: {fileID: 1216072613}
+  - toNode: {fileID: 315866919}
   - toNode: {fileID: 713957250}
+  - toNode: {fileID: 625375158}
+  - toNode: {fileID: 3579776}
   waypointType: 0
 --- !u!1 &2131853967
 GameObject:
