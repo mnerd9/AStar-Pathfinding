@@ -15,15 +15,24 @@ namespace Astar.MyScript {
         public GameObject notificationGUI;
         public Image notificationBackground;
 
-        private float agent1, agent2;
+        private float agent1, agent2, agent3;
         private PathfindingTester slowerAgent;
+        private ACOTester slowerAgent2;
         private float originalSpeed;
         private Vector3 storeOldPosition;
         public TextMeshProUGUI collisionText;
 
         void Start() {
-            agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
-            agent2 = GameObject.Find("Agent2").GetComponent<PathfindingTester>().CurrSpeed;
+            PathfindingTester pathfindingTesterComponent = GetComponent<PathfindingTester>();
+            if (pathfindingTesterComponent != null) {
+                agent1 = GameObject.Find("Agent1").GetComponent<PathfindingTester>().CurrSpeed;
+                agent2 = GameObject.Find("Agent2").GetComponent<PathfindingTester>().CurrSpeed;
+                agent3 = GameObject.Find("Agent3").GetComponent<PathfindingTester>().CurrSpeed;
+            } else {
+                agent1 = GameObject.Find("Agent1").GetComponent<ACOTester>().CurrSpeed;
+                agent2 = GameObject.Find("Agent2").GetComponent<ACOTester>().CurrSpeed;
+                agent3 = GameObject.Find("Agent3").GetComponent<ACOTester>().CurrSpeed;
+            }
         }
         
         public void notification(string getText, string getType) {
@@ -75,6 +84,8 @@ namespace Astar.MyScript {
             frontWheelR.Rotate(Vector3.right, rotationAngle);
             rearWheel.Rotate(Vector3.right, rotationAngle);
         }
+
+        private float otherAgentSpeed;
         void OnTriggerEnter(Collider other) {
             if (other.gameObject.tag == "Agent") {
                 Rigidbody otherRigidbody = other.gameObject.GetComponent<Rigidbody>();
@@ -82,19 +93,38 @@ namespace Astar.MyScript {
                     float distance = Vector3.Distance(transform.position, other.transform.position);
 
                     if (distance < 5f) {
-                        float otherAgentSpeed = other.gameObject.GetComponent<PathfindingTester>().CurrSpeed;
-
-                        if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2) {
-                            slowerAgent = other.gameObject.GetComponent<PathfindingTester>();
-                            collisionText.text = "Collision Detection: " + gameObject.name + " has collided with " + other.gameObject.name;
-                            if (slowerAgent != null) {
-                                originalSpeed = slowerAgent.CurrSpeed;
-                                slowerAgent.CurrSpeed = 0f;
-                                slowerAgent.GetNotification(gameObject.name + " has stopped", "error");
-                                storeOldPosition = slowerAgent.transform.position;
-                                Vector3 newPosition = slowerAgent.transform.position;
-                                newPosition.x -= 5f;
-                                slowerAgent.transform.position = newPosition;
+                        PathfindingTester pathfindingTesterComponent = other.gameObject.GetComponent<PathfindingTester>();
+                        ACOTester ACOTesterComponent = other.gameObject.GetComponent<ACOTester>();
+                        if (pathfindingTesterComponent != null) {
+                            // Use PathfindingTester if pathfindingtester is enabled
+                            otherAgentSpeed = other.gameObject.GetComponent<PathfindingTester>().CurrSpeed;
+                            if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2 || otherAgentSpeed < agent3) {
+                                slowerAgent = other.gameObject.GetComponent<PathfindingTester>();
+                                collisionText.text = "Collision Detection: " + gameObject.name + " has collided with " + other.gameObject.name;
+                                if (slowerAgent != null) {
+                                    originalSpeed = slowerAgent.CurrSpeed;
+                                    slowerAgent.CurrSpeed = 0f;
+                                    // slowerAgent.GetNotification(gameObject.name + " has stopped", "error");
+                                    storeOldPosition = slowerAgent.transform.position;
+                                    Vector3 newPosition = slowerAgent.transform.position;
+                                    newPosition.z += 5f;
+                                    slowerAgent.transform.position = newPosition;
+                                }
+                            }
+                        } else {
+                            otherAgentSpeed = other.gameObject.GetComponent<ACOTester>().CurrSpeed;
+                            if (otherAgentSpeed < agent1 || otherAgentSpeed < agent2 || otherAgentSpeed < agent3) {
+                                slowerAgent2 = other.gameObject.GetComponent<ACOTester>();
+                                collisionText.text = "Collision Detection: " + gameObject.name + " has collided with " + other.gameObject.name;
+                                if (slowerAgent2 != null) {
+                                    originalSpeed = slowerAgent2.CurrSpeed;
+                                    slowerAgent2.CurrSpeed = 0f;
+                                    // slowerAgent2.GetNotification(gameObject.name + " has stopped", "error");
+                                    storeOldPosition = slowerAgent2.transform.position;
+                                    Vector3 newPosition = slowerAgent2.transform.position;
+                                    newPosition.x -= 5f;
+                                    slowerAgent2.transform.position = newPosition;
+                                }
                             }
                         }
                     }
@@ -103,19 +133,28 @@ namespace Astar.MyScript {
         }
         void OnTriggerExit(Collider other) {
             if (other.gameObject.tag == "Agent") {
-                if (slowerAgent != null) {
+                if (slowerAgent != null || slowerAgent2 != null) {
                     Invoke("ResumeAgent", 3f);
                 }
             }
         }
 
         void ResumeAgent() {
-            if (slowerAgent != null) {
-                slowerAgent.transform.position = storeOldPosition;
-                slowerAgent.CurrSpeed = originalSpeed;
-                slowerAgent.GetNotification("", "");
-                collisionText.text = "Collision Detection:  None";
-                slowerAgent = null;
+            if (slowerAgent != null || slowerAgent2 != null) {
+                PathfindingTester pathfindingTesterComponent = GetComponent<PathfindingTester>();
+                if (pathfindingTesterComponent != null) {
+                    slowerAgent.transform.position = storeOldPosition;
+                    slowerAgent.CurrSpeed = originalSpeed;
+                    // slowerAgent.GetNotification("", "");
+                    collisionText.text = "Collision Detection:  None";
+                    slowerAgent = null;
+                } else {
+                    slowerAgent2.transform.position = storeOldPosition;
+                    slowerAgent2.CurrSpeed = originalSpeed;
+                    // slowerAgent2.GetNotification("", "");
+                    collisionText.text = "Collision Detection:  None";
+                    slowerAgent2 = null;
+                }
             }
         }
     }

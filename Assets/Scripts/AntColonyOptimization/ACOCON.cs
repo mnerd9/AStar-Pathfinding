@@ -9,17 +9,21 @@ public class ACOCON {
             return defaultPheromone;
         }
     }
-    private float Alpha = 1.0f;
-    private float Beta = 0.0001f;
-    // where 0 ≤ EvaporationFactor ≤ 1 is the evaporation factor of the pheromone.
-    private float EvaporationFactor = 0.5f;
-    // Q is a constant, it should be ≤ 1.
-    private float Q = 0.0006f;
+
+    public float Alpha { get; set; }
+    public float Beta { get; set; }
+    public float EvaporationFactor { get; set; }
+    public float Q { get; set; }
     // Ants of agents moving through the graph. This class stores properties: Total distance and connections used.
     private List < ACOAnt > Ants = new List < ACOAnt > ();
     // The generated route.
     private List < ACOConnection > MyRoute = new List < ACOConnection > ();
-    public ACOCON() {}
+    public ACOCON() {
+        Alpha = 1.0f;
+        Beta = 0.0001f;
+        EvaporationFactor = 0.5f;
+        Q = 0.0006f;
+    }
     /* IterationThreshold = Max number of iterations.
     TotalNumAnts = Total number of ants in the simulation.
     Connections = Connections between nodes.
@@ -207,8 +211,8 @@ public class ACOCON {
     // Log Connections.
     private void LogConnections(List < ACOConnection > Connections) {
         foreach(ACOConnection aConnection in Connections) {
-            Debug.Log(">" + aConnection.FromNode.name + " | ---> " +
-                aConnection.ToNode.name + " = " + aConnection.PheromoneLevel);
+            // Debug.Log(">" + aConnection.FromNode.name + " | ---> " +
+            //     aConnection.ToNode.name + " = " + aConnection.PheromoneLevel);
         }
     }
     // Log Route
@@ -256,7 +260,7 @@ public class ACOCON {
             }
             PathCount++;
         }
-        Debug.Log(Output);
+        // Debug.Log(Output);
     }
     // Log Route
     private void LogAnts() {
@@ -267,6 +271,6 @@ public class ACOCON {
             Output += "Ant " + i + " - Start Node: " + Ants[i].StartNode.name +
                 " | Tour Length: " + Ants[i].AntTourLength + "\n";
         }
-        Debug.Log(Output);
+        // Debug.Log(Output);
     }
 }

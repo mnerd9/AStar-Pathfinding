@@ -28,7 +28,7 @@ public class PathfindingTester : MonoBehaviour
     private int currTarget = 0;
     private Vector3 currTargetPos;
     private int movingDir = 1;
-    [SerializeField] private bool isAgentMoving = true;
+    private bool isAgentMoving = true;
 
     public TextMeshProUGUI storeDistance;
     public TextMeshProUGUI storeTime;
@@ -42,6 +42,10 @@ public class PathfindingTester : MonoBehaviour
     private bool moveNotification;
 
     private bool isMovingDirection;
+
+    public float accumulatedDistance;
+    public float accumulatedTime;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -118,6 +122,14 @@ public class PathfindingTester : MonoBehaviour
         set { currSpeed = value; }
     }
 
+    public void SetStartNode(GameObject startNode) {
+        start = startNode;
+    }
+
+    public void SetEndNode(GameObject endNode) {
+        end = endNode;
+    }
+
     void Update() {
         if (isAgentMoving) {
             if (movingDir > 0) {
@@ -162,16 +174,16 @@ public class PathfindingTester : MonoBehaviour
             }
 
             float calcDist = currSpeed * Time.smoothDeltaTime;
-            newDist = newDist + calcDist;
-            newTime = newTime + Time.smoothDeltaTime;
+            accumulatedDistance += calcDist;
+            accumulatedTime += Time.smoothDeltaTime;
 
             myScript.RotateWheel(currSpeed);
 
-            storeDistance.text = newDist.ToString("F2");
-            storeTime.text = newTime.ToString("F2");
+            storeDistance.text = accumulatedDistance.ToString("F2");
+            storeTime.text = accumulatedTime.ToString("F2");
 
-            if (newTime >= 1) {
-                newSpeed = newDist / newTime;
+            if (accumulatedTime >= 1) {
+                newSpeed = accumulatedDistance / accumulatedTime;
                 storeSpeed.text = currSpeed.ToString("F2");
             }
 
@@ -180,19 +192,6 @@ public class PathfindingTester : MonoBehaviour
             } else if(isMovingDirection != true) {
                 storeSpeed.text = currSpeed.ToString("F2");
             }
-        }
-    }
-
-    void OnTriggerEnter(Collider collider) {
-        if (collider != null && collider.CompareTag(gameObject.name + "Log") && isAgentMoving) {
-            Destroy(collider.gameObject);
-            myScript.notification(gameObject.name + " has collected "+ logs + " logs", "info");
-            storeItems.text = logs.ToString();
-            float calcSpeedPercentage = logs * 0.1f;
-            newSpeed = newDist / newTime;
-            float conversionSpeed = newSpeed * (1 - calcSpeedPercentage);
-            currSpeed = conversionSpeed;
-            storeSpeed.text = currSpeed.ToString("F2");
         }
     }
 
